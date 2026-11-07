@@ -366,8 +366,10 @@
       "size_guide": "",
       "tags": [],
       "stock": "In stock",
-      "featured": false,
-      "photos": []
+      "featured": true,
+      "photos": [
+        "/assets/uploads/IMG_4780.jpeg"
+      ]
     },
     {
       "name": "Silk Scarf",
