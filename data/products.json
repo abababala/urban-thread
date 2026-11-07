@@ -1,1 +1,423 @@
-{"items": [{"name": "Satin Wrap Dress", "category": "Women", "price": "48,000", "old_price": "", "description": "A fluid satin wrap dress with a flattering tie waist.", "sizes": ["S", "M", "L", "XL"], "colours": [{"name": "Black", "hex": "#1d1a17"}, {"name": "Terracotta", "hex": "#c4673a"}, {"name": "Navy", "hex": "#1f2a44"}], "size_guide": "Women’s sizes", "tags": ["New"], "stock": "In stock", "photos": [], "featured": true}, {"name": "Ankara Peplum Top", "category": "Women", "price": "28,000", "old_price": "", "description": "A bold printed top with a structured peplum hem.", "sizes": ["S", "M", "L", "XL"], "colours": [{"name": "Terracotta", "hex": "#c4673a"}, {"name": "Olive", "hex": "#6b7550"}], "size_guide": "Women’s sizes", "tags": [], "stock": "In stock", "photos": [], "featured": true}, {"name": "High-Waist Palazzo Trousers", "category": "Women", "price": "32,000", "old_price": "38,000", "description": "Wide-leg trousers that move beautifully.", "sizes": ["S", "M", "L", "XL"], "colours": [{"name": "Black", "hex": "#1d1a17"}, {"name": "Sand", "hex": "#d9c3a0"}], "size_guide": "Women’s sizes", "tags": [], "stock": "In stock", "photos": [], "featured": true}, {"name": "Linen Co-ord Set", "category": "Women", "price": "55,000", "old_price": "", "description": "A matching linen top and trouser set for warm days.", "sizes": ["S", "M", "L", "XL"], "colours": [{"name": "Sand", "hex": "#d9c3a0"}, {"name": "Olive", "hex": "#6b7550"}], "size_guide": "Women’s sizes", "tags": ["New"], "stock": "Low stock", "photos": [], "featured": true}, {"name": "Classic Linen Shirt", "category": "Men", "price": "26,000", "old_price": "", "description": "A breathable linen shirt with a relaxed fit.", "sizes": ["S", "M", "L", "XL"], "colours": [{"name": "White", "hex": "#f4f1ec"}, {"name": "Navy", "hex": "#1f2a44"}, {"name": "Sand", "hex": "#d9c3a0"}], "size_guide": "Men’s sizes", "tags": ["New"], "stock": "In stock", "photos": [], "featured": true}, {"name": "Tailored Chinos", "category": "Men", "price": "30,000", "old_price": "", "description": "Slim, comfortable chinos for work and weekends.", "sizes": ["S", "M", "L", "XL"], "colours": [{"name": "Sand", "hex": "#d9c3a0"}, {"name": "Olive", "hex": "#6b7550"}, {"name": "Navy", "hex": "#1f2a44"}], "size_guide": "Men’s sizes", "tags": [], "stock": "In stock", "photos": [], "featured": true}, {"name": "Senator Kaftan Set", "category": "Men", "price": "65,000", "old_price": "", "description": "A refined two-piece set for events and Sundays.", "sizes": ["S", "M", "L", "XL"], "colours": [{"name": "Black", "hex": "#1d1a17"}, {"name": "Navy", "hex": "#1f2a44"}], "size_guide": "Men’s sizes", "tags": [], "stock": "In stock", "photos": [], "featured": false}, {"name": "Oversized Graphic Tee", "category": "Men", "price": "16,000", "old_price": "20,000", "description": "A heavyweight cotton tee with a bold front print.", "sizes": ["S", "M", "L", "XL"], "colours": [{"name": "Black", "hex": "#1d1a17"}, {"name": "White", "hex": "#f4f1ec"}], "size_guide": "Men’s sizes", "tags": [], "stock": "In stock", "photos": [], "featured": false}, {"name": "Leather Tote Bag", "category": "Bags and Shoes", "price": "58,000", "old_price": "", "description": "A roomy tote with a soft structured shape.", "sizes": [], "colours": [{"name": "Black", "hex": "#1d1a17"}, {"name": "Sand", "hex": "#d9c3a0"}], "size_guide": "", "tags": ["New"], "stock": "In stock", "photos": [], "featured": true}, {"name": "Chunky Sneakers", "category": "Bags and Shoes", "price": "45,000", "old_price": "", "description": "Cushioned everyday sneakers with a chunky sole.", "sizes": ["38", "39", "40", "41", "42", "43"], "colours": [{"name": "White", "hex": "#f4f1ec"}, {"name": "Black", "hex": "#1d1a17"}], "size_guide": "Shoe sizes", "tags": [], "stock": "In stock", "photos": [], "featured": true}, {"name": "Block Heel Sandals", "category": "Bags and Shoes", "price": "36,000", "old_price": "", "description": "Comfortable block heels you can wear all day.", "sizes": ["38", "39", "40", "41", "42"], "colours": [{"name": "Black", "hex": "#1d1a17"}, {"name": "Sand", "hex": "#d9c3a0"}], "size_guide": "Shoe sizes", "tags": [], "stock": "Sold out", "photos": [], "featured": false}, {"name": "Beaded Statement Necklace", "category": "Accessories", "price": "14,000", "old_price": "", "description": "A handmade beaded necklace to lift any outfit.", "sizes": [], "colours": [{"name": "Terracotta", "hex": "#c4673a"}, {"name": "Sand", "hex": "#d9c3a0"}], "size_guide": "", "tags": [], "stock": "In stock", "photos": [], "featured": false}, {"name": "Silk Scarf", "category": "Accessories", "price": "12,000", "old_price": "15,000", "description": "A soft printed scarf to wear in your hair or on a bag.", "sizes": [], "colours": [{"name": "Terracotta", "hex": "#c4673a"}, {"name": "Navy", "hex": "#1f2a44"}], "size_guide": "", "tags": [], "stock": "In stock", "photos": [], "featured": false}, {"name": "Minimal Watch", "category": "Accessories", "price": "42,000", "old_price": "", "description": "A clean-faced watch with a slim leather strap.", "sizes": [], "colours": [{"name": "Black", "hex": "#1d1a17"}, {"name": "Sand", "hex": "#d9c3a0"}], "size_guide": "", "tags": [], "stock": "In stock", "photos": [], "featured": false}]}
+{
+  "items": [
+    {
+      "name": "Satin Wrap Dress",
+      "category": "Women",
+      "price": "48,000",
+      "old_price": "",
+      "description": "A fluid satin wrap dress with a flattering tie waist.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colours": [
+        {
+          "name": "Black",
+          "hex": "#1d1a17"
+        },
+        {
+          "name": "Terracotta",
+          "hex": "#c4673a"
+        },
+        {
+          "name": "Navy",
+          "hex": "#1f2a44"
+        }
+      ],
+      "size_guide": "Women’s sizes",
+      "tags": [
+        "New"
+      ],
+      "stock": "In stock",
+      "featured": true,
+      "photos": [
+        "/assets/uploads/IMG_4768.jpeg"
+      ]
+    },
+    {
+      "name": "Ankara Peplum Top",
+      "category": "Women",
+      "price": "28,000",
+      "old_price": "",
+      "description": "A bold printed top with a structured peplum hem.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colours": [
+        {
+          "name": "Terracotta",
+          "hex": "#c4673a"
+        },
+        {
+          "name": "Olive",
+          "hex": "#6b7550"
+        }
+      ],
+      "size_guide": "Women’s sizes",
+      "tags": [],
+      "stock": "In stock",
+      "featured": true,
+      "photos": [
+        "/assets/uploads/IMG_4769.jpeg"
+      ]
+    },
+    {
+      "name": "High-Waist Palazzo Trousers",
+      "category": "Women",
+      "price": "32,000",
+      "old_price": "38,000",
+      "description": "Wide-leg trousers that move beautifully.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colours": [
+        {
+          "name": "Black",
+          "hex": "#1d1a17"
+        },
+        {
+          "name": "Sand",
+          "hex": "#d9c3a0"
+        }
+      ],
+      "size_guide": "Women’s sizes",
+      "tags": [],
+      "stock": "In stock",
+      "featured": true,
+      "photos": [
+        "/assets/uploads/IMG_4770.jpeg"
+      ]
+    },
+    {
+      "name": "Linen Co-ord Set",
+      "category": "Women",
+      "price": "55,000",
+      "old_price": "",
+      "description": "A matching linen top and trouser set for warm days.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colours": [
+        {
+          "name": "Sand",
+          "hex": "#d9c3a0"
+        },
+        {
+          "name": "Olive",
+          "hex": "#6b7550"
+        }
+      ],
+      "size_guide": "Women’s sizes",
+      "tags": [
+        "New"
+      ],
+      "stock": "Low stock",
+      "featured": true,
+      "photos": [
+        "/assets/uploads/IMG_4771.jpeg"
+      ]
+    },
+    {
+      "name": "Classic Linen Shirt",
+      "category": "Men",
+      "price": "26,000",
+      "old_price": "",
+      "description": "A breathable linen shirt with a relaxed fit.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colours": [
+        {
+          "name": "White",
+          "hex": "#f4f1ec"
+        },
+        {
+          "name": "Navy",
+          "hex": "#1f2a44"
+        },
+        {
+          "name": "Sand",
+          "hex": "#d9c3a0"
+        }
+      ],
+      "size_guide": "Men’s sizes",
+      "tags": [
+        "New"
+      ],
+      "stock": "In stock",
+      "featured": true,
+      "photos": [
+        "/assets/uploads/IMG_4772.jpeg"
+      ]
+    },
+    {
+      "name": "Tailored Chinos",
+      "category": "Men",
+      "price": "30,000",
+      "old_price": "",
+      "description": "Slim, comfortable chinos for work and weekends.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colours": [
+        {
+          "name": "Sand",
+          "hex": "#d9c3a0"
+        },
+        {
+          "name": "Olive",
+          "hex": "#6b7550"
+        },
+        {
+          "name": "Navy",
+          "hex": "#1f2a44"
+        }
+      ],
+      "size_guide": "Men’s sizes",
+      "tags": [],
+      "stock": "In stock",
+      "featured": true,
+      "photos": [
+        "/assets/uploads/IMG_4773.jpeg"
+      ]
+    },
+    {
+      "name": "Senator Kaftan Set",
+      "category": "Men",
+      "price": "65,000",
+      "old_price": "",
+      "description": "A refined two-piece set for events and Sundays.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colours": [
+        {
+          "name": "Black",
+          "hex": "#1d1a17"
+        },
+        {
+          "name": "Navy",
+          "hex": "#1f2a44"
+        }
+      ],
+      "size_guide": "Men’s sizes",
+      "tags": [],
+      "stock": "In stock",
+      "featured": true,
+      "photos": [
+        "/assets/uploads/IMG_4774.jpeg"
+      ]
+    },
+    {
+      "name": "Oversized Graphic Tee",
+      "category": "Men",
+      "price": "16,000",
+      "old_price": "20,000",
+      "description": "A heavyweight cotton tee with a bold front print.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colours": [
+        {
+          "name": "Black",
+          "hex": "#1d1a17"
+        },
+        {
+          "name": "White",
+          "hex": "#f4f1ec"
+        }
+      ],
+      "size_guide": "Men’s sizes",
+      "tags": [],
+      "stock": "In stock",
+      "featured": true,
+      "photos": [
+        "/assets/uploads/IMG_4775.jpeg"
+      ]
+    },
+    {
+      "name": "Leather Tote Bag",
+      "category": "Bags and Shoes",
+      "price": "58,000",
+      "old_price": "",
+      "description": "A roomy tote with a soft structured shape.",
+      "sizes": [],
+      "colours": [
+        {
+          "name": "Black",
+          "hex": "#1d1a17"
+        },
+        {
+          "name": "Sand",
+          "hex": "#d9c3a0"
+        }
+      ],
+      "size_guide": "",
+      "tags": [
+        "New"
+      ],
+      "stock": "In stock",
+      "featured": true,
+      "photos": [
+        "/assets/uploads/IMG_4776.jpeg"
+      ]
+    },
+    {
+      "name": "Chunky Sneakers",
+      "category": "Bags and Shoes",
+      "price": "45,000",
+      "old_price": "",
+      "description": "Cushioned everyday sneakers with a chunky sole.",
+      "sizes": [
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
+      ],
+      "colours": [
+        {
+          "name": "White",
+          "hex": "#f4f1ec"
+        },
+        {
+          "name": "Black",
+          "hex": "#1d1a17"
+        }
+      ],
+      "size_guide": "Shoe sizes",
+      "tags": [],
+      "stock": "In stock",
+      "featured": true,
+      "photos": [
+        "/assets/uploads/IMG_4777.jpeg"
+      ]
+    },
+    {
+      "name": "Block Heel Sandals",
+      "category": "Bags and Shoes",
+      "price": "36,000",
+      "old_price": "",
+      "description": "Comfortable block heels you can wear all day.",
+      "sizes": [
+        "38",
+        "39",
+        "40",
+        "41",
+        "42"
+      ],
+      "colours": [
+        {
+          "name": "Black",
+          "hex": "#1d1a17"
+        },
+        {
+          "name": "Sand",
+          "hex": "#d9c3a0"
+        }
+      ],
+      "size_guide": "Shoe sizes",
+      "tags": [],
+      "stock": "Sold out",
+      "featured": false,
+      "photos": []
+    },
+    {
+      "name": "Beaded Statement Necklace",
+      "category": "Accessories",
+      "price": "14,000",
+      "old_price": "",
+      "description": "A handmade beaded necklace to lift any outfit.",
+      "sizes": [],
+      "colours": [
+        {
+          "name": "Terracotta",
+          "hex": "#c4673a"
+        },
+        {
+          "name": "Sand",
+          "hex": "#d9c3a0"
+        }
+      ],
+      "size_guide": "",
+      "tags": [],
+      "stock": "In stock",
+      "featured": false,
+      "photos": []
+    },
+    {
+      "name": "Silk Scarf",
+      "category": "Accessories",
+      "price": "12,000",
+      "old_price": "15,000",
+      "description": "A soft printed scarf to wear in your hair or on a bag.",
+      "sizes": [],
+      "colours": [
+        {
+          "name": "Terracotta",
+          "hex": "#c4673a"
+        },
+        {
+          "name": "Navy",
+          "hex": "#1f2a44"
+        }
+      ],
+      "size_guide": "",
+      "tags": [],
+      "stock": "In stock",
+      "featured": true,
+      "photos": [
+        "/assets/uploads/IMG_4779.jpeg"
+      ]
+    },
+    {
+      "name": "Minimal Watch",
+      "category": "Accessories",
+      "price": "42,000",
+      "old_price": "",
+      "description": "A clean-faced watch with a slim leather strap.",
+      "sizes": [],
+      "colours": [
+        {
+          "name": "Black",
+          "hex": "#1d1a17"
+        },
+        {
+          "name": "Sand",
+          "hex": "#d9c3a0"
+        }
+      ],
+      "size_guide": "",
+      "tags": [],
+      "stock": "In stock",
+      "featured": true,
+      "photos": [
+        "/assets/uploads/IMG_4778.jpeg"
+      ]
+    }
+  ]
+}
