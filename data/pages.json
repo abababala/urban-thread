@@ -1,1 +1,84 @@
-{"shop_title": "The *shop*", "shop_text": "Browse everything, or filter by category.", "wish_title": "Your *wishlist*", "wish_text": "Saved on this device so you can come back to it.", "look_title": "The *lookbook*", "look_text": "Outfit ideas styled from our latest pieces.", "looks": [{"image": "", "title": "Weekend *linen*", "text": "Easy, breathable pieces for relaxed days.", "products": ["Classic Linen Shirt", "Tailored Chinos"]}, {"image": "", "title": "Evening *ease*", "text": "Soft fabrics and clean lines for dinner and drinks.", "products": ["Satin Wrap Dress", "Block Heel Sandals"]}, {"image": "", "title": "Everyday *street*", "text": "Comfortable layers with a bold finish.", "products": ["Oversized Graphic Tee", "Chunky Sneakers"]}], "related_title": "You may also *like*", "about_title": "About *Urban Thread*", "about_text": "Modern fashion for people who like to look good without overthinking it.", "about_image": "", "values": [{"title": "Made to wear", "text": "Comfortable fits and fabrics chosen for everyday life."}, {"title": "Honest prices", "text": "Clear prices with regular offers and no surprises."}, {"title": "Personal service", "text": "Questions about sizing or styling? Message us on WhatsApp."}], "delivery_title": "Delivery and *returns*", "delivery_text": "Everything you need to know before you order.", "delivery_blocks": [{"title": "How delivery works", "text": "Orders are confirmed on WhatsApp, packed within one working day and delivered by our dispatch partners."}, {"title": "Returns and exchanges", "text": "If something does not fit, message us within 3 days of delivery. Items must be unworn with tags attached."}], "faq_title": "Common *questions*", "faq": [{"q": "How do I place an order?", "a": "Add items to your cart, fill in your details and send the order on WhatsApp. We will confirm and arrange payment."}, {"q": "Can I change my order after sending it?", "a": "Yes, message us on WhatsApp as soon as possible and we will update it."}, {"q": "How do I know my size?", "a": "Use the Size guide link on each product, or message us and we will help."}], "contact_title": "Get in *touch*", "contact_text": "Questions about an order, sizing or styling? Send us a message."}
+{
+  "shop_title": "The *shop*",
+  "shop_text": "Browse everything, or filter by category.",
+  "wish_title": "Your *wishlist*",
+  "wish_text": "Saved on this device so you can come back to it.",
+  "look_title": "The *lookbook*",
+  "look_text": "Outfit ideas styled from our latest pieces.",
+  "looks": [
+    {
+      "image": "/assets/uploads/IMG_4765.jpeg",
+      "title": "Weekend *linen*",
+      "text": "Easy, breathable pieces for relaxed days.",
+      "products": [
+        "Classic Linen Shirt",
+        "Tailored Chinos"
+      ]
+    },
+    {
+      "image": "/assets/uploads/IMG_4764.jpeg",
+      "title": "Evening *ease*",
+      "text": "Soft fabrics and clean lines for dinner and drinks.",
+      "products": [
+        "Satin Wrap Dress",
+        "Heel Sandals"
+      ]
+    },
+    {
+      "image": "/assets/uploads/IMG_4762.jpeg",
+      "title": "Everyday *street*",
+      "text": "Comfortable layers with a bold finish.",
+      "products": [
+        "Oversized Baggy Trousers",
+        "Flat Sneakers"
+      ]
+    }
+  ],
+  "related_title": "You may also *like*",
+  "about_title": "About *Urban Thread*",
+  "about_text": "Modern fashion for people who like to look good without overthinking it.",
+  "about_image": "",
+  "values": [
+    {
+      "title": "Made to wear",
+      "text": "Comfortable fits and fabrics chosen for everyday life."
+    },
+    {
+      "title": "Honest prices",
+      "text": "Clear prices with regular offers and no surprises."
+    },
+    {
+      "title": "Personal service",
+      "text": "Questions about sizing or styling? Message us on WhatsApp."
+    }
+  ],
+  "delivery_title": "Delivery and *returns*",
+  "delivery_text": "Everything you need to know before you order.",
+  "delivery_blocks": [
+    {
+      "title": "How delivery works",
+      "text": "Orders are confirmed on WhatsApp, packed within one working day and delivered by our dispatch partners."
+    },
+    {
+      "title": "Returns and exchanges",
+      "text": "If something does not fit, message us within 3 days of delivery. Items must be unworn with tags attached."
+    }
+  ],
+  "faq_title": "Common *questions*",
+  "faq": [
+    {
+      "q": "How do I place an order?",
+      "a": "Add items to your cart, fill in your details and send the order on WhatsApp. We will confirm and arrange payment."
+    },
+    {
+      "q": "Can I change my order after sending it?",
+      "a": "Yes, message us on WhatsApp as soon as possible and we will update it."
+    },
+    {
+      "q": "How do I know my size?",
+      "a": "Use the Size guide link on each product, or message us and we will help."
+    }
+  ],
+  "contact_title": "Get in *touch*",
+  "contact_text": "Questions about an order, sizing or styling? Send us a message."
+}
