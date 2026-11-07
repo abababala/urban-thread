@@ -343,8 +343,10 @@
       "size_guide": "Shoe sizes",
       "tags": [],
       "stock": "Sold out",
-      "featured": false,
-      "photos": []
+      "featured": true,
+      "photos": [
+        "/assets/uploads/IMG_4781.jpeg"
+      ]
     },
     {
       "name": "Beaded Statement Necklace",
