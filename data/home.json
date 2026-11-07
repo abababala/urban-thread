@@ -1,1 +1,62 @@
-{"slides": [{"image": "", "title": "Style that *moves* with you.", "text": "Fresh pieces for women and men, ready to wear every day.", "button": "Shop new arrivals", "link": "shop.html"}, {"image": "", "title": "The weekend *edit*.", "text": "Relaxed fits, soft fabrics and easy colours.", "button": "Shop the edit", "link": "shop.html"}, {"image": "", "title": "Look good, *spend less*.", "text": "Selected pieces now on sale.", "button": "See the sale", "link": "shop.html"}], "show_categories": true, "cat_title": "Shop by *category*", "show_featured": true, "feat_title": "New *arrivals*", "show_promo": true, "promo_title": "Seasonal *sale*", "promo_text": "Up to 30% off selected pieces for a limited time.", "promo_button": "Shop the sale", "promo_link": "shop.html", "promo_image": "", "show_looks": true, "look_title": "The *lookbook*", "show_perks": true, "perks": [{"title": "Fast delivery", "text": "Delivery across Lagos, Abuja and other states."}, {"title": "Easy returns", "text": "Changed your mind? Return within the return window."}, {"title": "Order on WhatsApp", "text": "Chat with us any time to ask about sizes or styles."}], "show_insta": true, "insta_title": "Follow *along*", "insta": ["", "", "", "", "", ""]}
+{
+  "slides": [
+    {
+      "image": "/assets/uploads/IMG_4759.jpeg",
+      "title": "Style that *moves* with you.",
+      "text": "Fresh pieces for women and men, ready to wear every day.",
+      "button": "Shop new arrivals",
+      "link": "shop.html"
+    },
+    {
+      "image": "/assets/uploads/IMG_4760.jpeg",
+      "title": "The weekend *edit*.",
+      "text": "Relaxed fits, soft fabrics and easy colours.",
+      "button": "Shop the edit",
+      "link": "shop.html"
+    },
+    {
+      "image": "/assets/uploads/IMG_4757.jpeg",
+      "title": "Look good, *spend less*.",
+      "text": "Selected pieces now on sale.",
+      "button": "See the sale",
+      "link": "shop.html"
+    }
+  ],
+  "show_categories": true,
+  "cat_title": "Shop by *category*",
+  "show_featured": true,
+  "feat_title": "New *arrivals*",
+  "show_promo": true,
+  "promo_title": "Seasonal *sale*",
+  "promo_text": "Up to 30% off selected pieces for a limited time.",
+  "promo_button": "Shop the sale",
+  "promo_link": "shop.html",
+  "promo_image": "",
+  "show_looks": true,
+  "look_title": "The *lookbook*",
+  "show_perks": true,
+  "perks": [
+    {
+      "title": "Fast delivery",
+      "text": "Delivery across Lagos, Abuja and other states."
+    },
+    {
+      "title": "Easy returns",
+      "text": "Changed your mind? Return within the return window."
+    },
+    {
+      "title": "Order on WhatsApp",
+      "text": "Chat with us any time to ask about sizes or styles."
+    }
+  ],
+  "show_insta": true,
+  "insta_title": "Follow *along*",
+  "insta": [
+    "/assets/uploads/IMG_4750.jpeg",
+    "/assets/uploads/IMG_4749.jpeg",
+    "/assets/uploads/IMG_4753.jpeg",
+    "/assets/uploads/IMG_4752.jpeg",
+    "/assets/uploads/IMG_4754.jpeg",
+    "/assets/uploads/IMG_4756.jpeg"
+  ]
+}
