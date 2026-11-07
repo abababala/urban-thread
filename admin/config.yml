@@ -1,0 +1,210 @@
+backend:
+  name: github
+  repo: abababala/urban-thread
+  branch: main
+media_folder: assets/uploads
+public_folder: assets/uploads
+collections:
+  - name: site
+    label: Site content
+    files:
+      - name: settings
+        label: Brand and settings
+        file: data/settings.json
+        format: json
+        fields:
+          - {label: Shop name, name: name, widget: string}
+          - {label: Logo text, name: logo_text, widget: string}
+          - {label: Logo image (optional and replaces text), name: logo_image, widget: image, required: false}
+          - {label: Browser tab icon, name: favicon, widget: image, required: false}
+          - {label: Browser tab title, name: site_title, widget: string}
+          - {label: Google description, name: site_desc, widget: text}
+          - {label: Tagline, name: tagline, widget: string}
+          - {label: Background colour, name: bg, widget: color}
+          - {label: Text colour, name: ink, widget: color}
+          - {label: Accent colour, name: accent, widget: color}
+          - {label: Corner roundness, name: corners, widget: select, options: [Soft, Rounded, Rounder], default: Rounded}
+          - {label: Font, name: font, widget: select, options: [Outfit, Poppins, Plus Jakarta Sans, DM Sans, Sora, Manrope], default: Outfit}
+          - {label: Currency symbol, name: currency, widget: string}
+          - {label: Show announcement bar, name: an_on, widget: boolean, default: true}
+          - {label: Announcement messages, name: announcements, widget: list, required: false, field: {label: Message, name: message, widget: string}}
+          - {label: Announcement speed, name: an_speed, widget: select, options: [Slow, Normal, Fast], default: Slow}
+          - {label: Phone, name: phone, widget: string}
+          - {label: WhatsApp number (digits only), name: whatsapp, widget: string}
+          - {label: Email, name: email, widget: string}
+          - {label: Address, name: address, widget: string}
+          - {label: City, name: city, widget: string}
+          - {label: Opening hours, name: hours, widget: string}
+          - {label: Online payment link (optional Paystack or Flutterwave), name: pay_link, widget: string, required: false}
+          - {label: Instagram link, name: instagram, widget: string, required: false}
+          - {label: Instagram handle, name: insta_handle, widget: string, required: false}
+          - {label: Facebook link, name: facebook, widget: string, required: false}
+          - {label: TikTok link, name: tiktok, widget: string, required: false}
+          - {label: X link, name: x, widget: string, required: false}
+      - name: shop
+        label: Shop settings (categories, delivery, codes, payment)
+        file: data/shop.json
+        format: json
+        fields:
+          - label: Categories
+            name: categories
+            widget: list
+            fields:
+              - {label: Name (must match the category on products), name: name, widget: string}
+              - {label: Photo, name: image, widget: image, required: false}
+          - label: Size guides
+            name: size_guides
+            widget: list
+            fields:
+              - {label: Guide name, name: name, widget: string}
+              - {label: Note, name: note, widget: string, required: false}
+              - {label: Table columns, name: columns, widget: list, field: {label: Column, name: column, widget: string}}
+              - {label: Rows (values separated by commas), name: rows, widget: list, field: {label: Row, name: row, widget: string}}
+          - label: Delivery areas
+            name: areas
+            widget: list
+            fields:
+              - {label: Area, name: area, widget: string}
+              - {label: Fee (numbers only), name: fee, widget: string}
+              - {label: Delivery time, name: days, widget: string}
+          - {label: Free delivery over (numbers only, empty for none), name: free_over, widget: string, required: false}
+          - label: Discount codes
+            name: codes
+            widget: list
+            fields:
+              - {label: Code, name: code, widget: string}
+              - {label: Type, name: type, widget: select, options: [Percent, Fixed], default: Percent}
+              - {label: Value (percent or naira), name: value, widget: string}
+              - {label: Minimum spend (numbers only), name: min, widget: string, required: false}
+              - {label: Active, name: active, widget: boolean, default: true}
+          - {label: Add to cart button text, name: add_label, widget: string}
+          - {label: Bank transfer title, name: bank_title, widget: string}
+          - {label: Bank transfer details, name: bank_text, widget: text}
+          - {label: Pay on delivery title, name: cod_title, widget: string}
+          - {label: Pay on delivery details, name: cod_text, widget: text}
+      - name: home
+        label: Home page
+        file: data/home.json
+        format: json
+        fields:
+          - label: Slideshow (wrap a word in stars for italic style)
+            name: slides
+            widget: list
+            fields:
+              - {label: Photo, name: image, widget: image, required: false}
+              - {label: Headline, name: title, widget: string}
+              - {label: Text, name: text, widget: text}
+              - {label: Button text, name: button, widget: string}
+              - {label: Button link, name: link, widget: string}
+          - {label: Show categories section, name: show_categories, widget: boolean, default: true}
+          - {label: Categories heading, name: cat_title, widget: string}
+          - {label: Show new arrivals section, name: show_featured, widget: boolean, default: true}
+          - {label: New arrivals heading (products marked Featured show here), name: feat_title, widget: string}
+          - {label: Show sale banner, name: show_promo, widget: boolean, default: true}
+          - {label: Banner heading, name: promo_title, widget: string}
+          - {label: Banner text, name: promo_text, widget: text}
+          - {label: Banner button text, name: promo_button, widget: string}
+          - {label: Banner button link, name: promo_link, widget: string}
+          - {label: Banner photo, name: promo_image, widget: image, required: false}
+          - {label: Show lookbook section, name: show_looks, widget: boolean, default: true}
+          - {label: Lookbook heading, name: look_title, widget: string}
+          - {label: Show perks section, name: show_perks, widget: boolean, default: true}
+          - label: Perks
+            name: perks
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Text, name: text, widget: text}
+          - {label: Show Instagram strip, name: show_insta, widget: boolean, default: true}
+          - {label: Instagram heading, name: insta_title, widget: string}
+          - {label: Instagram photos, name: insta, widget: list, required: false, field: {label: Photo, name: photo, widget: image}}
+      - name: pages
+        label: Other pages
+        file: data/pages.json
+        format: json
+        fields:
+          - {label: Shop title, name: shop_title, widget: string}
+          - {label: Shop text, name: shop_text, widget: text}
+          - {label: Wishlist title, name: wish_title, widget: string}
+          - {label: Wishlist text, name: wish_text, widget: text}
+          - {label: Lookbook title, name: look_title, widget: string}
+          - {label: Lookbook text, name: look_text, widget: text}
+          - label: Looks
+            name: looks
+            widget: list
+            fields:
+              - {label: Photo, name: image, widget: image, required: false}
+              - {label: Title, name: title, widget: string}
+              - {label: Text, name: text, widget: text}
+              - {label: Products in this look (exact product names), name: products, widget: list, required: false, field: {label: Product name, name: product, widget: string}}
+          - {label: Related products heading, name: related_title, widget: string}
+          - {label: About title, name: about_title, widget: string}
+          - {label: About text, name: about_text, widget: text}
+          - {label: About photo, name: about_image, widget: image, required: false}
+          - label: About points
+            name: values
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Text, name: text, widget: text}
+          - {label: Delivery page title, name: delivery_title, widget: string}
+          - {label: Delivery page text, name: delivery_text, widget: text}
+          - label: Delivery and returns blocks
+            name: delivery_blocks
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Text, name: text, widget: text}
+          - {label: FAQ heading, name: faq_title, widget: string}
+          - label: FAQ
+            name: faq
+            widget: list
+            fields:
+              - {label: Question, name: q, widget: string}
+              - {label: Answer, name: a, widget: text}
+          - {label: Contact title, name: contact_title, widget: string}
+          - {label: Contact text, name: contact_text, widget: text}
+      - name: products
+        label: Products
+        file: data/products.json
+        format: json
+        fields:
+          - label: Products
+            name: items
+            widget: list
+            fields:
+              - {label: Product name, name: name, widget: string}
+              - {label: Category (must match a shop category), name: category, widget: string}
+              - {label: Price (numbers only), name: price, widget: string}
+              - {label: Old price for sales (optional), name: old_price, widget: string, required: false}
+              - {label: Description, name: description, widget: text}
+              - {label: Sizes, name: sizes, widget: list, required: false, field: {label: Size, name: size, widget: string}}
+              - label: Colours
+                name: colours
+                widget: list
+                required: false
+                fields:
+                  - {label: Colour name, name: name, widget: string}
+                  - {label: Colour, name: hex, widget: color}
+              - {label: Size guide name (optional), name: size_guide, widget: string, required: false}
+              - {label: Tags (for example New), name: tags, widget: list, required: false, field: {label: Tag, name: tag, widget: string}}
+              - {label: Stock, name: stock, widget: select, options: [In stock, Low stock, Sold out], default: In stock}
+              - {label: Show on home page, name: featured, widget: boolean, default: false}
+              - {label: Photos (first one is the cover), name: photos, widget: list, required: false, field: {label: Photo, name: photo, widget: image}}
+      - name: builder
+        label: Built by (services page)
+        file: data/builder.json
+        format: json
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: Headline, name: headline, widget: string}
+          - {label: About me, name: about, widget: text}
+          - label: Services and skills
+            name: services
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Description, name: description, widget: text}
+          - {label: Email, name: email, widget: string}
+          - {label: Phone, name: phone, widget: string}
+          - {label: WhatsApp number (digits only), name: whatsapp, widget: string}
