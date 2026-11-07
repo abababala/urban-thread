@@ -1,1 +1,35 @@
-{"name": "Urban Thread", "logo_text": "urban thread", "logo_image": "", "favicon": "", "site_title": "Urban Thread | Fashion for everyday style, Lagos", "site_desc": "Modern fashion for women and men. Order easily on WhatsApp.", "tagline": "Everyday style, made easy.", "bg": "#ffffff", "ink": "#1d1a17", "accent": "#ff6b1a", "corners": "Rounded", "font": "Outfit", "currency": "₦", "announcements": ["Free delivery on orders over ₦150,000", "New arrivals every week", "Order easily on WhatsApp", "Use code WELCOME10 for 10% off your first order"], "an_on": true, "an_speed": "Slow", "phone": "+2349027085482", "whatsapp": "2349027085482", "email": "allamaminu247@gmail.com", "address": "8 Admiralty Way, Lekki Phase 1", "city": "Lagos, Nigeria", "hours": "Monday to Saturday, 9am to 7pm", "instagram": "", "insta_handle": "@urbanthread", "facebook": "", "tiktok": "", "x": "", "pay_link": ""}
+{
+  "name": "Urban Thread",
+  "logo_text": "urban thread",
+  "logo_image": "",
+  "favicon": "",
+  "site_title": "Urban Thread | Fashion for everyday style, Lagos",
+  "site_desc": "Modern fashion for women and men. Order easily on WhatsApp.",
+  "tagline": "Everyday style, made easy.",
+  "bg": "#ffffff",
+  "ink": "#1d1a17",
+  "accent": "#ff6b1a",
+  "corners": "Rounded",
+  "font": "Outfit",
+  "currency": "₦",
+  "an_on": true,
+  "announcements": [
+    "Free delivery on orders over ₦150,000",
+    "New arrivals every week",
+    "Order easily on WhatsApp",
+    "Use code WELCOME10 for 10% off your first order"
+  ],
+  "an_speed": "Slow",
+  "phone": "+2349027085482",
+  "whatsapp": "2349027085482",
+  "email": "allamaminu247@gmail.com",
+  "address": "8 Admiralty Way, Lekki Phase 1",
+  "city": "Lagos, Nigeria",
+  "hours": "Monday to Saturday, 9am to 7pm",
+  "pay_link": "",
+  "instagram": "",
+  "insta_handle": "",
+  "facebook": "",
+  "tiktok": "",
+  "x": ""
+}
